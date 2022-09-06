@@ -4,4 +4,4 @@ class Asignatura:
         self._nombre = nombre
         self._salon = salon
     def __str__(self):
-        return str(self.nombre)+" "+str(self.salon)
+        return str(self._nombre)+" "+str(self._salon)
